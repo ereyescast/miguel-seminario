@@ -43,6 +43,7 @@ document.addEventListener("DOMContentLoaded", () => {
     const url = `https://wa.me/51993925765?text=${encodeURIComponent(mensaje)}`;
 
     window.open(url, "_blank");
+    
   });
 
   // 🎬 Animación de aparición para imágenes y tarjetas de servicios
