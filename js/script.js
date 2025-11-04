@@ -42,7 +42,7 @@ document.addEventListener("DOMContentLoaded", () => {
     const mensaje = `Hola Miguel, soy ${nombre}. Vivo en ${distrito} y quiero mejorar mi ${objetivo}.`;
     const url = `https://wa.me/51993925765?text=${encodeURIComponent(mensaje)}`;
 
-    setTimeout(() => window.open(url, "_blank"), 1500);
+    window.open(url, "_blank");
   });
 
   // 🎬 Animación de aparición para imágenes y tarjetas de servicios
